@@ -1,0 +1,6 @@
+docker exec -it odoo14-web-1 bash
+
+
+odoo --no-http --workers=0 --max-cron-threads=0 --load=base,web \
+--db_host=odoo14-db-1 --db_user=odoo --db_password=odoo \
+--stop-after-init -u all -d nombrebasededatos
