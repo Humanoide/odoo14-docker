@@ -9,7 +9,7 @@ script
 CONTAINER="odoo14-db-1"
 USER="odoo"
 BACKUP_DIR="/opt/backups_odoo14"
-DATABASES=("inmake" "otra_db" "tercera_db")   # ← añade tus bases
+DATABASES=("una_db" "otra_db" "tercera_db")   # ← añade tus bases
 RETENCION_DIAS=4
 # ============================================
 
